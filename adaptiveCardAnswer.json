@@ -1,0 +1,137 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "spacing": "None",
+            "style": "emphasis",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "OpenAI Bot"
+                                }
+                            ],
+                            "width": "stretch"
+
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "id": "4b3986aa-ca62-8df9-f4c9-5d9bc8585978",
+                                    "url": "data:image/png;base64,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",
+                                    "horizontalAlignment": "Right",
+                                    "altText": "",
+                                    "height": "12px"
+                                }
+                            ],
+                            "width": "auto",
+                            "verticalContentAlignment": "Center"
+
+                        }
+                    ]
+                }
+
+            ]
+
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "size": "Large",
+                    "weight": "Bolder",
+                    "text": "OpenAI Bot",
+                    "wrap": true,
+                    "style": "heading",
+                    "spacing": "Large"
+                }
+            ],
+
+            "spacing": "None",
+            "separator": true
+        },
+        {
+
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "weight": "Bolder",
+                    "text": "Response:",
+                    "wrap": true,
+                    "spacing": "Large"
+                },
+                {
+                    "type": "TextBlock",
+                    "id": "e6cfb5dc-3f3a-cafa-82d9-ea69be554c08",
+                    "text": "Answer will show here.",
+                    "wrap": true
+
+                },
+
+                {
+                    "type": "TextBlock",
+                    "weight": "Bolder",
+                    "text": "2\\. Overall, how would you rate the answer?",
+                    "wrap": true,
+                    "spacing": "Large"
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "id": "OverallRating",
+                    "placeholder": "Overall, how would you rate the event?",
+
+                    "choices": [
+                        {
+                            "title": "Excellent",
+                            "value": "Excellent"
+                        },
+                        {
+                            "title": "Very Good",
+                            "value": "Very Good"
+                        },
+                        {
+                            "title": "Good",
+                            "value": "Good"
+                        },
+                        {
+                            "title": "Fair",
+                            "value": "Fair"
+                        },
+                        {
+                            "title": "Poor",
+                            "value": "Poor"
+                        }
+                    ],
+                    "style": "expanded",
+                    "isRequired": true
+                },
+                { "type": "ActionSet",
+                    "actions": [
+                        {
+                            "type": "Action.Submit",
+                            "title": "Submit Rating",
+                            "data": {
+                                "id": "Submit"
+                            }
+                        }
+                    ]
+                }
+            ],
+
+            "spacing": "None"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2"
+
+}
